@@ -67,6 +67,8 @@ class Filme {
             console.log('Ano: ' + this.ano);
             console.log('Duração: ' + this.duracao);
             console.log('--------------------------------------------')
+            //chamando um metodo dentro de outro
+            this.Reproduzir();
         }
 
 
@@ -83,6 +85,6 @@ fantasma.Ficha();
 
 avatar.Ficha();
 
-//ao insves fazer o porcesso varias vezes eu coloco dentro de um metodo 
+//ao inves fazer o processo varias vezes eu coloco dentro de um metodo 
 //e ele faz de forma automatica
 
